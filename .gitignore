@@ -1,0 +1,55 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution and packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+.env/
+*.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# FastAPI specific files
+instance/
+*.sqlite3
+
+# Docker files
+docker-compose.override.yml
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.mo
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.vscode/
+
+# Pytest cache
+.cache/
+pytest_cache/
